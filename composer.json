@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "require": {
+        "botman/botman": "^2.6",
+        "botman/driver-telegram": "^1.6",
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
